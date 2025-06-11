@@ -1,0 +1,60 @@
+{
+    "characters": {
+        "守夜人": {
+        "name": "守夜人",
+        "original_health": 4000,"health": 4000,
+        "attack": 25,
+        "mana": 30,
+        "speed": 17,
+        "san": 44,
+        "status": [],
+        "weapon": {},
+        "camp": "长夜之灯",
+        "resistances": { "physical": [ 0, 0.02 ], "magic": [ 0, 0.02 ], "spirit": [ 15, 0.05 ], "curse": [ 10, 0.05 ], "element": [ 0, 0 ], "void": [ -1000, -200 ], "divine": [ 0, -0.02 ], "light": [ 0, -0.05 ], "deepdark": [ 10, 0.05 ], "evil": [ 5, -0.01 ], "space": [ 0, -10 ], "time": [ 0, -10 ] },
+        "element_resistances": { "fire": [ -30, -0.2 ], "water": [ 10, -0.01 ], "nature": [ 5, 0.02 ], "electric": [ -30, -0.5 ], "ice": [ -5, -0.1 ], "bug": [ 10, -0.05 ], "flying": [ -10, -0.07 ], "ground": [ 0, -0.04 ], "rock": [ -5, -0.02 ], "fighting": [ 0, 0 ], "ghost": [ -20, -0.06 ], "poison": [ -5, -0.05 ], "dark": [ 5, 0.05 ], "steel": [ -10, -0.12 ], "dragon": [ -100, -0.5 ], "fairy": [ -20, -0.1 ] },
+        "status_resistances": [],
+        "normal_attack": [
+            "P||杖击||75*1||手杖势如霹雳砸在***的头上||physical**light",
+            "S||长夜之刺||125*2||长夜之力凝聚，化作冲击向***迸发||spirit**light",
+            "M||暗夜之光||75*1||长夜之光火点燃了***||magic**light**element||fire"
+        ],
+        "attribute_promotion": [
+            "长夜祝福||health**san||100**5||暗夜宁静的力量庇护***的身灵"
+        ],
+        "resistance_enhancement": [],
+        "effect_application": [],
+        "morphology_skill": [],
+        "morphology": {},
+        "field": [],
+        "special": "0"
+    },
+    "世界之灵": {
+        "name": "世界之灵",
+        "original_health": 6400,"health": 6400,
+        "attack": 16,
+        "mana": 16,
+        "speed": 16,
+        "san": 16,
+        "status": [],
+        "weapon": {},
+        "camp": "世界原初",
+        "resistances": { "physical": [ 0, 0.02 ], "magic": [ 0, 0.02 ], "spirit": [ 0, 0.5 ], "curse": [ 0, 0.5 ], "element": [ 0, 0.5 ], "void": [ -1000, -200 ], "divine": [ 0, -0.02 ], "light": [ 0, -0.05 ], "deepdark": [ 0, -0.2 ], "evil": [ 0, -0.2 ], "space": [ 0, 0.5 ], "time": [ 0, 0.5 ] },
+        "element_resistances": { "fire": [ -30, -0.2 ], "water": [ 10, -0.01 ], "nature": [ 5, 1 ], "electric": [ -30, -0.5 ], "ice": [ -5, -0.1 ], "bug": [ 10, -0.05 ], "flying": [ -10, -0.07 ], "ground": [ 0, -0.04 ], "rock": [ -5, -0.02 ], "fighting": [ 0, 0 ], "ghost": [ -20, -0.06 ], "poison": [ -5, -0.05 ], "dark": [ -10, -0.12 ], "steel": [ -10, -0.12 ], "dragon": [ -100, -0.5 ], "fairy": [ -20, -0.1 ] },
+        "status_resistances": [],
+        "normal_attack": [
+            "P||世界之刃||128*4||来自世界的力量凝结成刃，向***冲击而去||physical**element||nature**ground",
+            "S||世界之怒||128*4||来自世界的力量凝结成波，向***冲击而去||spirit**element||nature**ground",
+            "M||世界之裂||128*4||来自世界的力量凝结成光，向***冲击而去||magic**element||nature**ground"
+        ],
+        "attribute_promotion": [
+            "世界之吻||health**attack**mana**speed**san||128**16**16**16**16||来自世界的祝福全面强化了***"
+        ],
+        "resistance_enhancement": [],
+        "effect_application": [],
+        "morphology_skill": [],
+        "morphology": {},
+        "field": [],
+        "special": "0"
+    }
+    }
+}

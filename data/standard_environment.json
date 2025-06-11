@@ -1,0 +1,11 @@
+{
+    "environment":{
+        "叹息旷野":{
+            "name":"叹息旷野",
+            "description":"一个荒芜的沙漠，充满了沙尘暴和烈日。",
+            "narrate":[],
+            "amplification":{"fire": [5, 0.02]},
+            "weaken":{}
+        }
+    }
+}
